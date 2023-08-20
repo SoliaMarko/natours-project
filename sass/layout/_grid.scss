@@ -1,0 +1,18 @@
+@use "../abstracts/variables" as variables;
+
+.row {
+  max-width: variables.$grid-width;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  gap: variables.$gutter-horizontal;
+
+  &:not(:last-child) {
+    margin-bottom: variables.$gutter-vertical;
+  }
+
+  [class^="col-"] {
+    width: 100%;
+  }
+}
