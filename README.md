@@ -42,7 +42,9 @@ color: transparent
 
 - add **space between element and border** (outline)?
 
-![outline](./README_assets/outline.png "outline")
+<p align="center" width="100%">
+    <img alt="outline" src="./README_assets/outline.png"> 
+</p>
 
 ```
 outline: 3rem solid green;       // setting border
